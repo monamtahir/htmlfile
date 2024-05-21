@@ -1,0 +1,55 @@
+#A1{
+    width: 500px;
+}
+#A2{
+    width: 243px;
+}
+#A3{
+    width: 157px;
+
+}
+#A4{
+    width: 100px;
+}
+#A5{
+    width: 400px;
+    height: 150px;
+}
+#A6 {
+    color: white;
+    background-color: green;
+    border: green;
+    height: 30px;
+}
+
+#A6:hover {
+    background-color: darkgreen;
+}
+#A7 {
+    background-image: url('regimagfoam.avif');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-color: #f0f0f0;
+    border: 2px solid grey;
+    padding: 50px;
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    opacity: 0.8; /* Adjust the opacity of the background */
+}
+
+.input:hover{
+    border-color: lightskyblue;
+}
+/* Additional styling for reset button */
+input[type="reset"] {
+    color: white;
+    background-color: red;
+    border: red;
+    height: 30px;
+}
+
+input[type="reset"]:hover {
+    background-color: darkred;
+}
